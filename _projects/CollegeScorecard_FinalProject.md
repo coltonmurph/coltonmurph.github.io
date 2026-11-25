@@ -30,7 +30,7 @@ Before comparing colleges to each other it helps to know whether a bachelor's de
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Earn_OT_Dash.json" style="width: 100%"></vegachart>
 
-This chart compares the cost of attendance vs the median earnings of a student 10 years after starting college. Each dot is a different college. Dots farther right cost more per year, and dots higher up are colleges whose students earn more at the median. The colors show what kind of school it is, blue for public, orange for private nonprofit and green for private for profit. 
+This chart compares the cost of attendance vs the median earnings of a student 10 years after starting college . Each dot is a different college. Dots farther right cost more per year, and dots higher up are colleges whose students earn more at the median. The colors show what kind of school it is, blue for public, orange for private nonprofit and green for private for profit. 
 
 How to use it: Hover over any dot to see the school's name, location, cost, earnings, graduation rate and typical student loan debt. Click and drag a box over a group of dots and the bottom chart updates to show how earnings grow for the schools you picked 6, 8, and 10 years after starting college. You can double click to clear your box. You can also use the pick a state dropdown to highlight one state's schools. The bottom chart then only shows that state.
 
@@ -64,10 +64,10 @@ The takeaway is that a higher price tag doesn't guarantee a bigger paycheck, and
 Below are links to both the data and the analysis code:
 
 <div class="left">
-{% include elements/button.html link="https://github.com/coltonmurph/coltonmurph.github.io/blob/main/_data/Most-Recent-Cohorts-Institution.csv" text="The Data" %}
+{% include elements/button.html link="https://collegescorecard.ed.gov/data/" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/coltonmurph/coltonmurph.github.io/blob/main/python_notebooks/Scorecard_Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/coltonmurph/coltonmurph.github.io/blob/main/python_notebooks/Scorecard_Analysis.ipynb" text="The Analysis" %}
 </div>
 
